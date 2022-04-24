@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065349185714",
+    "project_id": "happypaws-ab9c0",
+    "storage_bucket": "happypaws-ab9c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065349185714:android:6619c6bf72fab7b69309ab",
+        "android_client_info": {
+          "package_name": "com.example.petapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065349185714-9jq9g44p704n8iu6r3f7seam9g2u1f1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHb13IX03v9vAjUgyh00MgvEYn0Yi8BlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065349185714-9jq9g44p704n8iu6r3f7seam9g2u1f1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
