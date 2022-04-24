@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-final List<String> sexlist = ['F','M'];
-final List<String> dropdownlistValue = sexlist;
+final List<String> _sexlist = ['F','M'];
+final List<String> _dropdownlistValue = _sexlist;
 
 class SexDropDownWidget extends StatefulWidget {
   const SexDropDownWidget( {Key? key}) : super(key: key);
@@ -13,11 +13,12 @@ class SexDropDownWidget extends StatefulWidget {
 
 class _SexDropDownWidgetState extends State<SexDropDownWidget> {
   @override
-  String showvalue = dropdownlistValue.first;
+  String _showvalue = _dropdownlistValue.first;
+  String selectedPetSex = '';
   Widget build(BuildContext context) {
     return DropdownButtonHideUnderline(
     child: DropdownButton<String>(
-        value: showvalue,
+        value: _showvalue,
         icon: const Icon(Icons.arrow_drop_down_outlined),
         elevation: 16,
         style: const TextStyle(color: Colors.black),
@@ -26,10 +27,11 @@ class _SexDropDownWidgetState extends State<SexDropDownWidget> {
         iconEnabledColor:const Color(0xFFB8C1CC),
         onChanged: (String? newValue) {
           setState(() {
-            showvalue = newValue!;
+            _showvalue = newValue!;
+            selectedPetSex = _showvalue;
           });
         },
-        items: dropdownlistValue
+        items: _dropdownlistValue
             .map<DropdownMenuItem<String>>((String value) {
           return DropdownMenuItem<String>(
             value: value,

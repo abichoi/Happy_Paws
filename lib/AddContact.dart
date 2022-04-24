@@ -4,12 +4,12 @@ class AddContactFormWidget extends StatefulWidget {
   const AddContactFormWidget({Key? key}) : super(key: key);
 
   @override
-  State<AddContactFormWidget> createState() => AddContactFormWidgetState();
+  State<AddContactFormWidget> createState() => _AddContactFormWidgetState();
 }
 
 
-class AddContactFormWidgetState extends State<AddContactFormWidget> {
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+class _AddContactFormWidgetState extends State<AddContactFormWidget> {
+  final _formKey = GlobalKey<FormState>();
   final List<String> _choosen = [];
   final List<String> _data= [];
   bool _selected1 = false;
