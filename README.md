@@ -1,16 +1,4 @@
-# petapp
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Happy Paws
+This is the inital repo of Happy Paws. The newer repo is at https://github.com/abichoi/Happy_Paws2  
+For unknow reason the project in this inital repo could not run the Emulator. But with the same code but in a new project the emulator is running normally.
+This inital repo is kept for the record of the first three commit.
